@@ -1,5 +1,9 @@
 # Smart Lab
 
+This webapp will enable you to see the status of the lab's energy consumption and much more
+
+Live URL: `smart-lab-gamma.vercel.app`
+
 ## Installation
 
 In the project directory, you can run:
