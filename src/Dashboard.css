@@ -1,0 +1,30 @@
+.container-2 {
+    width: 84%;
+    height: 100%;
+    background-color: #FDE8E8;
+    padding: 10px;
+}
+
+.dashboard-heading {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.lab-selector {
+    position: relative;
+}
+
+.system-status-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 24px;
+}

@@ -1,0 +1,11 @@
+.system-card-container{
+    color: #352B44;
+    height: 150px;
+    background-color: #DEDEDE;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.card-table td{
+    width: 50px;
+}

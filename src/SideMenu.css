@@ -1,0 +1,27 @@
+.container-1{
+    width: 16%;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+Link{
+    text-decoration: none;
+}
+
+.sub-heading{
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.sub-contents{
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    position: relative;
+    top: 480px;
+}
