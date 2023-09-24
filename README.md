@@ -8,6 +8,10 @@ Live URL: `smart-lab-gamma.vercel.app`
 
 In the project directory, you can run:
 
+### `bun install`
+
+Install all the necessary dependencies.
+
 ### `bun start`
 
 Runs the app in the development mode.\
