@@ -4,7 +4,6 @@ import './Card.css'
 export default function Card(props) {
     var stats = props.data
     var stats1 = props.data1
-    console.log(stats)
     return (
         <>
             <div className="card-container">
@@ -30,13 +29,13 @@ export default function Card(props) {
                     </table>
                     {stats1 != null &&
                         <table style={{paddingLeft: "48px"}}>
-                           {Object.keys(stats).map(key => {
+                           {Object.keys(stats1).map(key => {
                             return (
                                 <>
                                     <tr>
                                         <td>{key}</td>
                                         <td>&emsp;&emsp;</td>
-                                        <td>{stats[key]}</td>
+                                        <td>{stats1[key]}</td>
                                     </tr>
                                     <tr>
                                     </tr>

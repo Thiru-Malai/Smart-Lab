@@ -1,6 +1,7 @@
 import './SystemCard.css'
 
 export default function SystemCard(props) {
+    console.log(props.systems)
     return (
         <>
             <div className='system-status'>
@@ -11,38 +12,26 @@ export default function SystemCard(props) {
                     <div className='card-table'>
                         <table align='center'>
                             <tr>
-                                <thead>
+                                <th>
                                     System#
-                                </thead>
+                                </th>
                                 <td></td>
-                                <thead>
+                                <th>
                                     Status
-                                </thead>
+                                </th>
                             </tr>
-                            <tr>
-                                <td>001</td>
-                                <td></td>
-                                <td>ON</td>
-                            </tr>
-                            <tr>
-                                <td>002</td>
-                                <td></td>
-                                <td>ON</td>
-                            </tr>
-                            <tr>
-                                <td>003</td>
-                                <td></td>
-                                <td>ON</td>
-                            </tr>
-                            <tr>
-                                <td>004</td>
-                                <td></td>
-                                <td>ON</td>
-                            </tr>
+                            {props.systems && 
+                            Object.entries(props.systems).map(([itemName, itemDetails]) => (
+                                <tr key={itemName}>
+                                    <td>{itemName}</td>
+                                    <td>&emsp;&emsp;</td>
+                                    <td>{itemDetails.status}</td>
+                                </tr>
+                            ))}
                         </table>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     )
 } 
